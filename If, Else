@@ -1,0 +1,13 @@
+
+public class Main {
+    public static void main(String[] args) {
+      int numeroif = -5;
+
+      if (numeroif > 0)
+          System.out.println("Es numero Par");
+      else
+          System.out.println("Es un numero impar");
+
+      }
+
+}
