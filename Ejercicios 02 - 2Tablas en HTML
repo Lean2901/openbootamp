@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 02/ - Tablas en HTML</title>
+</head>
+<body>
+  <table>
+    Tablas en HTML
+    <tr>
+      <th>Título</th>
+      <th>Autor</th> 
+      <th>Año de publicación</th> 
+      <th>Enlace a Amazon</th> 
+    </tr>
+    <tr>
+      <td>Distancia de rescate</td>
+      <td>Samanta Schweblin</td>
+      <td>05 de febrero de 2015</td>
+      <td><a href="https://www.amazon.es/Distancia-rescate-Literatura-Random-House/dp/8439729480" target="_blank">Comprar Aqui!</a></td>
+    </tr>
+    <tr>
+      <td>Coleccion obras de teatro</td>
+      <td>Carlos Muñiz</td>
+      <td>año 1963</td>
+      <td><a href="https://www.amazon.es/TINTERO-SOLO-SAXOFON-VIEJAS-DIFICILES/dp/B01FD6L8WE" target="_blank">Comprar Aqui!</a></td>
+    </tr>
+    <tr>
+      <td>Cell</td>
+      <td>Stephen King</td>
+      <td>año 2008</td>
+      <td><a href="https://www.amazon.es/Cell-BEST-SELLER-Stephen-King/dp/8483465213" target="_blank">Comprar Aqui!</a></td>
+    </tr>
+  </table>
+
+  
+
+
+    
+</body>
+</html>
