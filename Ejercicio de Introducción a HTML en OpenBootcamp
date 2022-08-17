@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de Introducción a HTML en OpenBootcamp</title>
+</head>
+<body>
+    <!--esto es mi primer comentario
+    de dos lineas-->
+    <!--aprendiendo a documentar mi codigo-->
+
+    <ul>
+        <li><a  href="https://www.youtube.com/watch?v=4-OgofQQkRg&ab_channel=ESPNFans">El pollo habla de Boquita</a></li>
+        <li><a  href="https://www.youtube.com/watch?v=pczMO57wKTg&ab_channel=JamieBower">Jamie Bowen Cantan I am</a></li>
+        <li><a  href="https://www.youtube.com/watch?v=RG6O-Qq79G0&ab_channel=NPRMusic">Nicki Nicole Tiny Desk</a></li>
+
+        
+
+    </ul>
+
+
+    
+</body>
+</html>
