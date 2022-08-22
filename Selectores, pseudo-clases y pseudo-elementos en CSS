@@ -1,0 +1,70 @@
+<!--CODIGO HTML-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores, pseudo-clases y pseudo-elementos en CSS</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div>
+    <button id="boton1" class="boton">
+      
+    </button>
+  </div>
+
+
+  
+
+
+    
+</body>
+</html>
+
+
+/*CODIGO CSS*/
+
+div {
+    width: 300px;
+    background-color: blue;
+    height: 400px;
+    padding: 100px;
+}
+button {
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    
+    
+}
+.boton::before {
+    content: "Pasa por encima";
+    
+    
+    
+}
+
+
+.boton:hover::before {
+    
+    content: "Hecho";
+    background-color: green;
+    color: white;
+    
+}
+.boton:hover {
+    
+    background-color: green;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
