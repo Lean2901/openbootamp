@@ -1,0 +1,70 @@
+<!--CODIGO HTML-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dispocision de elemntos en CSS</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <img class="imagen-principal" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/f7/b5/90/laguna-de-los-tres.jpg?w=600&h=-1&s=1" alt="Montañas lago y luna"> 
+
+  <div class="galeria">
+
+    <img class="imagen-galeria"  src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/fc/b3/patagonia.jpg?w=600&h=-1&s=1" alt="Panoramica cordillera y lagos">
+    <img class="imagen-galeria" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/14/07/45/argentina.jpg?w=600&h=-1&s=1" alt="Cordillera de los andes"> 
+    <img class="imagen-galeria" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/0d/c7/52/ushuaia.jpg?w=600&h=-1&s=1" alt="puerto en la patagonia argentina"> 
+    <img class="imagen-galeria" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/30/ac/48/a-patagonia-e-a-regiao.jpg?w=600&h=-1&s=1" alt="Montañass y lago patagonia argentina"> 
+    <img class="imagen-galeria" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/63/c7/8d/caption.jpg?w=600&h=-1&s=1" alt="Ruta entre montañas cordilleranas"> 
+</div>
+
+  
+
+
+    
+</body>
+</html>
+
+
+/* CODIGO CSS*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.imagen-principal {
+    width: 100vw;
+    opacity: 0.3;
+    
+}
+.imagen-principal:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.galeria  {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.imagen-galeria {
+    width: 300px;
+}
+.imagen-galeria:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+    
+    
+    
+    
+    
+        
+
+
+
+
