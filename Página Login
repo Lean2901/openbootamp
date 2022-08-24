@@ -1,0 +1,342 @@
+<!--CODIGO HTML-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Login</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="contenedor">
+    <div class="logo">
+      <img  src="/Media/Imagenes/pngegg.png" alt="logo-nike">
+    </div>
+    <main>
+      <div class="titulo">
+        <h3>Bienvenido</h3>
+      </div>
+      <div class="botones">
+        <button class="boton-google">
+          <picture class="logo-google">
+            <img  src="/Media/Imagenes/kisspng-clip-art-google-logo-computer-icons-vector-graphic-google-icons-download-for-free-in-png-and-svg-5b650f9ee1bef7.5779771715333497909247.png" alt="">
+          </picture>
+          <div class="texto-google">Registrate con Google</div>      
+        </button>
+        <div class="div-tw">
+          <button class="boton-tw">
+            <picture>
+              <img src="/Media/Imagenes/twitter.png" alt="">
+            </picture>
+          </button>
+        </div>
+      </div>
+      <div class="separador">
+        <hr>
+        <span>O</span>
+        <hr>
+      </div>
+      
+      <div class="seccion-inputs">
+        <form class="inputs" action="" method="">
+          <label  for="email">Inserte email o nombre de Usuario
+            <input id="email" name="email" placeholder="Escriba su email" type="text">
+          </label>
+          <label  for="password">Contraseña
+            <input id="password" name="password" type="password">
+          </label>  
+          <button type="submit" class="boton-submit">Crear una cuenta nueva</button>        
+        </form>
+      </div>
+    </main>
+  </div>
+
+
+
+
+
+
+
+    
+</body>
+</html>
+
+
+
+/*CODIGO CSS
+Replica el ejercicio del vídeo 3 de esta sesión y realiza el siguiente cambio:
+
+Replícalo exactamente igual, pero realiza una nueva versión en modo oscuro
+
+Los colores serán los siguientes
+
+El rosa se queda igual
+
+El fondo blanco será sustituido por el color #161717
+
+El fondo de los inputs tendrá un color #212121
+
+El fondo de los inputs cuando se hace hover será del color #454045
+
+Los textos tendrán un color blanco
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600;700;900&display=swap');
+
+
+
+* {
+    font-family: 'Maven', sans-serif ;
+}
+body {
+    background-color: #161717 ;
+}
+.contenedor {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 50%;
+    height: 75%;
+    color: white;
+    
+}
+.logo img {
+    width: 100px;
+    height: 150;
+    margin-top: 50px;
+}
+
+main {
+    margin-top: -65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 65%;
+    height: 75%;
+    color: white;
+
+}
+
+.titulo h3 {
+    font-size: 20pt;
+    font-weight: 900;
+
+}
+
+.botones {
+    width: 100%;
+    align-self: flex-start;
+    display: flex;
+    
+    
+    gap: 70px;
+    
+
+}
+
+.boton-google {
+    width: 45%;
+    background-color: #1DA1F2;
+    border: 10px;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    cursor: pointer;
+    
+    transition: 0.4;
+}
+
+.boton-google:hover{
+    opacity: 50%;
+    border: 150px;
+    border-color: #161717;
+    background-color: #9fc3d8;
+    
+    transition: 0.5s;
+}
+
+.texto-google {
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+    font-size: 1.21vw;
+    margin-left: 10px;
+
+}
+
+.boton-google picture {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.boton-google picture img {
+    width: 75%; 
+     
+
+}
+
+.boton-tw {
+    margin-left: 75%;
+    background-color: #1DA1F2;
+    border-radius: 50%;
+    height: 45px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.boton-tw picture {
+    width: 35px;
+    height: 35px;
+    background-color: #1DA1F2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.boton-tw picture img {
+    width: 100%;
+    
+       
+     
+
+}
+
+.boton-tw:hover {
+    opacity: 50%;
+    background-color: #9fc3d8;
+    transition: 0.5s;
+}
+.boton-tw picture img:hover {
+    opacity: 50%;
+    background-color: #9fc3d8;
+    transition: 0.5s;
+
+}
+    
+    
+    
+
+
+
+.separador {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+hr {
+    width: 100%;
+}
+
+.seccion-inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+}
+
+label #email {
+    margin-bottom: 30px;
+}
+
+input#email {
+    width: 100%;
+    height: 50px;
+    
+    border-radius: 15px;
+    background-color: #212121;
+    display: flex;
+    margin-top: 30px;
+    color: white;
+    font-size: 12pt;
+
+}
+
+input#email:hover{
+    border: 100px;
+    border-color: #212121;
+    background-color: #454045 ;
+    transition: 0.5s
+}
+
+input#email:focus{
+    background-color: #454045 ;
+}
+label #password {
+    margin-bottom: 30px;
+}
+
+input#password {
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #212121;
+    display: flex;
+    margin-top: 30px;
+    color: white;
+    font-size: 12pt;
+
+}
+
+input#password:hover{
+    border: 100px;
+    border-color: #212121;
+    background-color: #454045 ;
+    transition: 0.5s
+}
+
+input#password:focus{
+    background-color: #454045 ;
+}
+
+button.boton-submit {
+    width: 80%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(234, 76, 137);
+    color: white;
+    font-size: 12pt;
+    font-weight: 600;
+
+
+}
+
+button.boton-submit:hover {
+    background-color: #F082AC;
+    cursor: pointer;
+    transition: 0.5s;
+    
+
+}
+
+
+
+
+
+
+
