@@ -1,0 +1,15 @@
+const nombre = "leandro";
+var edad = 31;
+let eresDesarrrolador = "no"
+if (true) {
+}
+const fechaNacimiento = new Date ("1991, 01, 29");
+const libroFavorito = "mi libro favorito" 
+ {
+    titulo : "libro ejemplo";
+    añoPublicacion : ("2019, 02, 26");
+    url : "www.libros.com";
+
+}
+
+console.log (nombre,edad, eresDesarrrolador, fechaNacimiento, libroFavorito);
