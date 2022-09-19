@@ -1,0 +1,44 @@
+const dato = 7; // Número del que queremos calcular el factorial
+let r = 1;
+for(let i = dato; i>0; i--){
+    r *= i;
+}
+console.log(r);
+
+
+//factorial con WHILE//
+
+	let factorial = 1;
+    let numero = 10;
+
+	while (numero > 1) {
+		console.log (factorial = factorial * numero);
+		numero--;
+	}
+  
+  
+  //factorialn usando WHILE con biffurcación y BREAK//
+  
+  
+  let factorial = 1;
+let numero = 10;
+
+while (numero > 1) {
+    console.log (factorial = factorial * numero);
+    numero--;
+    if (factorial==3628800) {
+        factorial=1;
+        break;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
