@@ -1,0 +1,27 @@
+let nombre = "Leandro";
+let apellido = "Massola";
+let estudiante = " Estudiante "
+console.log (`${nombre} ${apellido}`);
+
+let estudianteMayus = (estudiante.toUpperCase());
+let estudianteMinus = (estudiante.toLowerCase());
+console.log (estudianteMayus);
+console.log (estudianteMinus);
+
+let numLetras = (estudiante.length);
+console.log (numLetras);
+
+let firstLetterName = (nombre.charAt(0));
+console.log (firstLetterName);
+
+let lastLetterSurname = (apellido.charAt(6));
+console.log (lastLetterSurname)
+
+let eliminaEspacio = (estudiante.trim().length);
+console.log (eliminaEspacio);
+
+let booleanVar = (estudiante.indexOf(nombre));
+console.log (booleanVar)
+
+
+
