@@ -1,0 +1,12 @@
+let alturaCm = 183;
+let alturaM = 1.8356;
+let pesoKg = 64.343;
+let alturaRound = alturaM.toFixed(2);
+console.log (alturaRound);
+
+let pesoRound = pesoKg.toFixed(2);
+console.log (pesoRound);
+
+let maxValor = Number.MAX_VALUE + 1;
+
+console.log (maxValor=Number.MAX_VALUE);
