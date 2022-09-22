@@ -1,0 +1,28 @@
+let listaCompra = ["Leche", "Pan", "Pollo", "Chocolates", "Arroz"];
+listaCompra.splice(5, 0,"Aceite Girasol");
+console.log(listaCompra);
+
+listaCompra.splice(5,1);
+console.log(listaCompra);
+
+let peliculasFavoritas = [
+
+    {Pelicula: "Hereditary", Año: 2018, Director: "Ari Aster"},
+    {Pelicula: "Taxi Driver", Año: 1977, Director: "Martin Scorsese"},
+    {Pelicula: "X", Año: 2021, Director: "Ty West"},
+];
+
+let Pelis2010 = peliculasFavoritas.filter(peli => peli.Año > 2010);
+console.log(Pelis2010);
+
+let director = peliculasFavoritas.map(dir => dir.Director);
+console.log(director);
+
+let pelis = peliculasFavoritas.map(title => title.Pelicula);
+console.log(pelis);
+
+let filmDir = pelis.concat(director);
+console.log(filmDir);
+
+let filmPro = [...director, ...pelis];
+console.log(filmPro);
