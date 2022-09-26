@@ -1,0 +1,22 @@
+const objeto = {
+    nombre: "Leandro",
+    edad: 31,
+    altura: 1.83,
+    eresDesarrollador: false,
+}
+
+let age = "edad";
+console.log(objeto[age]);
+
+const amigos = [
+    {nombre: "Juan", edad: 45, altura: 1.87, eresDesarrollador: true},
+    {nombre: "María", edad: 20, altura: 1.65, eresDesarrollador: false},
+]
+
+
+let listaDatos = [objeto, ...amigos];
+console.log(listaDatos);
+
+
+let lista2 = listaDatos.sort((a, b)=> a.edad - b.edad );
+console.log(lista2)
