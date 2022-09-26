@@ -1,0 +1,25 @@
+let fecha = new Date();
+console.log(fecha);
+
+let bornDate = new Date(1991, 0, 29 );
+console.log(bornDate);
+
+let today = fecha>bornDate;
+console.log(today);
+
+let day = bornDate;
+console.log(day.getDate());
+
+let month = bornDate;
+console.log(month.getMonth()+1);
+
+let year = bornDate;
+console.log(day.getFullYear());
+
+
+
+
+
+
+
+
