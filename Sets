@@ -1,0 +1,9 @@
+const miFamilia = ["Hugo", "Ana", "Judith", "Lea"]
+const setFamilia = new Set(miFamilia);
+
+setFamilia.add("Lea");
+console.log(setFamilia);
+
+
+setFamilia.add("Javascript");
+console.log(setFamilia);
