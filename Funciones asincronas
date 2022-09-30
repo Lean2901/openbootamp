@@ -1,0 +1,59 @@
+function esReal (verdadero=true){
+    console.log(verdadero)
+    };
+    
+    esReal(true);
+    
+////
+
+function setTime() {
+    setTimeout(mensaje, 5000);
+}
+
+
+
+
+
+const miPromesa = new Promise ((resolve, reject) => {
+    const mensaje = "Hola, soy una promesa";
+    if(true) {
+        resolve(console.log(mensaje))
+    } else {
+        reject()
+    }
+})
+
+miPromesa
+.then (() => (setTimeout(() => {
+    
+}, 5000)))
+
+////
+
+function* generaI() {
+    let i = 0;
+    while (i<10) {
+        i++
+        i++
+        
+        
+    if (i===10) {
+        return i 
+    }
+    yield i;
+    }
+}
+
+const gen = generaI()
+console.log(gen.next().value)
+console.log(gen.next().value)
+console.log(gen.next().value)
+console.log(gen.next().value)
+console.log(gen.next().value)
+console.log(gen.next().value)
+
+
+
+
+
+
