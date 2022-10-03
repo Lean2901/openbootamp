@@ -1,0 +1,23 @@
+
+
+
+
+    const logger  = require('./logger')
+    const funcion = valor=> {
+        if (valor==="number") {
+            return 2*valor
+            }
+        throw new Error ("El valor es incorrecto")
+    }
+    
+    const numero = 8;
+
+    try {
+        console.log("se esta ejecutando bien")
+        const dos = funcion(cualquier)
+        console.log(dos)
+        
+    } catch (error) {
+        logger.error("ERROR")
+    }
+    
