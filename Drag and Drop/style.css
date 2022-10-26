@@ -1,0 +1,22 @@
+body {
+    background-color: darksalmon;
+}
+
+.parrafo {
+    text-align: center;
+    width: 10rem;
+    height: 3rem;
+    font-size: 2rem;
+    background-color: white;
+    border: solid 5px;
+    border-color: salmon;
+}
+
+.hold {
+    border: solid #ccc;
+}
+
+.hover {
+    background-color: grey;
+    border-style: dotted;
+}
